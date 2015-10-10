@@ -177,9 +177,8 @@ if __name__ == '__main__':
     models.initialize()
     try:
         models.User.create_user(
-            username='kennethlove',
-            email='kenneth@teamtreehouse.com',
-            password='password',
+            username='stokka',
+            email='kiefer.jones@shaw.ca',
             admin=True
         )
     except ValueError:
